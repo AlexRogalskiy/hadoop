@@ -1,0 +1,8 @@
+{
+  "type": "record",
+  "name": "example.IntWrapper",
+  "doc": "Rekord z jednym polem typu int.",
+  "fields": [
+    {"name": "value", "type": "int"}
+  ]
+}

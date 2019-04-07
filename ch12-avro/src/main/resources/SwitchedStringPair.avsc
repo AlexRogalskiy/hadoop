@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "StringPair",
+  "doc": "Para łańcuchów znaków sortowana wg pola right, a następnie wg pola left.",
+  "fields": [
+    {"name": "right", "type": "string"},
+    {"name": "left", "type": "string"}
+  ]
+}

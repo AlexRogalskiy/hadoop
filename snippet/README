@@ -1,0 +1,20 @@
+Ten katalog zawiera narzędzia do generowania fragmentów kodu na potrzeby książki i 
+ich testowania.
+
+Przykładowe wywołania:
+
+# Najpierw ustaw lokalizację testowanej instalacji Hadoopa
+# We wskazanym katalogu powinna znajdować się wypakowana kopia Hadoopa
+export HADOOP_HOME=~/dev/hadoop-1.0.0/
+
+# Z najwyższego poziomu
+mvn verify -Phadoop.version=1.0.0
+
+# Z katalogu z snippet
+mvn verify
+
+# Uruchamiane dla pseudoklastra (najpierw trzeba go uruchomić)
+mvn verify -DargLine="-Dexample.mode=pseudo"
+
+# Uruchamia tylko przykłady z rozdziału 2.
+mvn verify -DargLine="-Dexample.chapters=ch02-mr-intro"

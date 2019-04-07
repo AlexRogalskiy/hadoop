@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "StringPair",
+  "doc": "Para łańcuchów znaków.",
+  "fields": [
+    {"name": "left", "type": "string"},
+    {"name": "right", "type": "string"}
+  ]
+}

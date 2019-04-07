@@ -1,0 +1,4 @@
+# Plik wejściowy
+input=/user/tom/input/ncdc/micro-tab/sample.txt
+# Plik wyjściowy
+output=/tmp/out

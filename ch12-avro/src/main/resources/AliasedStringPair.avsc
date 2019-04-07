@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "StringPair",
+  "doc": "Para łańcuchów znaków z aliasami nazw pól.",
+  "fields": [
+    {"name": "first", "type": "string", "aliases": ["left"]},
+    {"name": "second", "type": "string", "aliases": ["right"]}
+  ]
+}
